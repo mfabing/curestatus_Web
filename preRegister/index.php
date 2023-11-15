@@ -13,7 +13,7 @@ $description = 'Pre-register to our curestatus.ai app and stay inform when we la
 	<main class="container my-5">
 		<div class="row">
 			<div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12">
-				<p class="text-center"><a href="/"><img src="/img/curestatus" class="img-fluid" alt="CureStatus"></a></p>
+				<p class="text-center"><a href="/"><img src="/img/curestatus.svg" class="img-fluid" alt="CureStatus"></a></p>
 				<p id="tagline"><?php echo $description; ?></p>
 				<div id="result1"></div>
 				<form hx-post="register.php" hx-target="#result1" hx-indicator="#spinner1" method="POST" role="form" hx-replace-target="true" id="registerForm">
