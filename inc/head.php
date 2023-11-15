@@ -80,7 +80,6 @@ if (!isset($name)) {
 <link type="font/woff2" href="/fonts/AvenirNext-Medium-06.woff2'">
 <link type="font/woff2" href="/fonts/AvenirNext-MediumItalic-07.woff2">
 <link type="font/woff2" href="/fonts/AvenirNext-DemiBold-03.woff2">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/datatables.net-dt@1/css/jquery.dataTables.min.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
 <?php
 if (stripos(__DIR__, '/Users/')===0) {
