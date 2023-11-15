@@ -10,7 +10,6 @@ $description = 'Pre-register to our curestatus.ai app and stay inform when we la
 	<?php include_once(__DIR__.'/../inc/head.php'); ?>
 </head>
 <body>
-	<?php include_once(__DIR__.'/../inc/nav.php'); ?>
 	<main class="container my-5">
 		<div class="row">
 			<div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12">
