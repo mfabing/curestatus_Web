@@ -15,21 +15,8 @@
         </div>
     </div>
 </footer>
-<script src="/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/htmx.org@1/dist/htmx.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/datatables.net@1/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/datatables.net-responsive@2/js/dataTables.responsive.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $('#table').DataTable( {
-            "responsive": true,
-            "pageLength": 25,
-            "order": [[ 0, "asc" ]]
-        });
-    });
-</script>
 <?php
 // code that can only be used on the server such as a GA and PWA...
 if (stripos(__DIR__, '/var/www/')===0) { ?>
@@ -45,10 +32,5 @@ if (stripos(__DIR__, '/var/www/')===0) { ?>
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-65J2YBWPMH');
-</script>
-<script>
-    if (typeof navigator.serviceWorker !== 'undefined') {
-        navigator.serviceWorker.register('/sw.js')
-    }
 </script>
 <?php } ?>
