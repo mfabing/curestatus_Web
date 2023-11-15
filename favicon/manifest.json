@@ -1,0 +1,84 @@
+{
+	"name": "CureStatus",
+	"icons": [
+		{
+			"src": "/favicon/android-icon-36x36.png",
+			"sizes": "36x36",
+			"type": "image/png",
+			"density": "0.75"
+		},
+		{
+			"src": "/favicon/android-icon-48x48.png",
+			"sizes": "48x48",
+			"type": "image/png",
+			"density": "1.0"
+		},
+		{
+			"src": "/favicon/android-icon-72x72.png",
+			"sizes": "72x72",
+			"type": "image/png",
+			"density": "1.5"
+		},
+		{
+			"src": "/favicon/android-icon-96x96.png",
+			"sizes": "96x96",
+			"type": "image/png",
+			"density": "2.0"
+		},
+		{
+			"src": "/favicon/android-icon-144x144.png",
+			"sizes": "144x144",
+			"type": "image/png",
+			"density": "3.0"
+		},
+		{
+			"src": "/favicon/android-icon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"density": "4.0"
+		},
+		{
+			"src": "/favicon/android-icon-800x800.png",
+			"sizes": "800x800",
+			"type": "image/png",
+			"density": "4.0"
+		},
+		{
+			"src": "/favicon/android-icon-800x800.png",
+			"sizes": "800x800",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "/favicon/android-icon-800x800.png",
+			"sizes": "800x800",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	],
+	"theme_color": "#fbf8fb",
+	"background_color": "#fbf8fb",
+	"short_name": "CureStatus",
+	"description": "Engage with the path to a cure for 7,940 conditions and diseases.",
+	"display": "fullscreen",
+	"scope": "/",
+	"start_url": "/",
+	"lang": "en",
+	"categories": [
+		"health",
+		"news",
+		"social"
+	],
+	"edge_side_panel": {
+		"preferred_width": 0
+	},
+	"dir": "ltr",
+	"orientation": "natural",
+	"shortcuts": [
+		{
+			"name": "login",
+			"url": "https://curestatus.ai/login/",
+			"description": "Login to your account"
+		}
+	]
+}
