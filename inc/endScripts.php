@@ -6,13 +6,13 @@
         <div id="footer-logo" class="align-items-center col-12 col-lg-2 d-flex flex-wrap inner-container justify-content-center justify-content-lg-center order-1 order-lg-2">
             <a href="/"></a>
         </div>
-        <div id="footer-links" class="align-items-center col-12 col-lg-5 d-flex flex-wrap inner-container justify-content-center justify-content-lg-end order-3 order-lg-3">
+        <!-- <div id="footer-links" class="align-items-center col-12 col-lg-5 d-flex flex-wrap inner-container justify-content-center justify-content-lg-end order-3 order-lg-3">
             <div class="align-items-center d-flex float-md-end links list-inline text-md-regular">
                 <div><a href="/terms.php" class="text-decoration-none">Terms</a></div>
                 <div><a href="/privacy.php" class="text-decoration-none">Privacy</a></div>
                 <div><a href="/cookies.php" class="text-decoration-none">Cookies</a></div>
             </div>
-        </div>
+        </div> -->
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js"></script>
