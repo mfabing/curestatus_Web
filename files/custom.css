@@ -1785,6 +1785,9 @@ table {
 	background: #f1f1f1;
 	font-weight: bold;
 }
+.btn-dark {
+	background: var(--transparent-steel-indigo-transparent-500);
+}
 .my-indicator{display:none;}
 .htmx-request .my-indicator{display:inline;}
 .htmx-request.my-indicator{display:inline;}
