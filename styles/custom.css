@@ -1062,7 +1062,7 @@ footer {
 	}
 		footer #footer-logo a {
 			background-color: var(--primary-steel-indigo-800);
-			mask: url('/img/icons/logo.svg') no-repeat 0px / 32px;
+			mask: url('/img/icons/logo-dark.svg') no-repeat 0px / 32px;
 			-webkit-mask-image: url('/img/icons/logo.svg');
 			-webkit-mask-repeat: no-repeat;
 			-webkit-mask-size: 32px 24px;
@@ -1699,7 +1699,7 @@ blockquote {
 			mask: url('/img/icons/sliders-04.svg') no-repeat 3px / 24px;
 		}
 	#feature-container .icon-container {
-		background: var(--transparent-steel-indigo-transparent-50);
+		background: var(--transparent-steel-indigo-transparent-100);
 		border-radius: 50%;
 		width: 64px;
 		height: 64px;
@@ -1727,7 +1727,7 @@ blockquote {
 	}
 }
 .row-alt {
-	background: var(--gradient-backgrounds-light-400);
+	background: var(--gradient-backgrounds-light-300);
 }
 #tagline {
 	color: var(--primary-gray-600);
@@ -1785,6 +1785,13 @@ table {
 	background: #f1f1f1;
 	font-weight: bold;
 }
+.btn-dark {
+	background: var(--primary-primary-500);
+	border: none;
+}
+	.btn-dark:hover {
+		background: var(--primary-primary-800);
+	}
 .my-indicator{display:none;}
 .htmx-request .my-indicator{display:inline;}
 .htmx-request.my-indicator{display:inline;}
