@@ -1057,6 +1057,9 @@ footer {
 	background: rgba(24, 7, 94, 0.09);
 	color: var(--primary-steel-indigo-800);
 }
+	footer a {
+		color: var(--primary-steel-indigo-800);
+	}
 	footer .container {
 		max-width: 1280px;
 	}
