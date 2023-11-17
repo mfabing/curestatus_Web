@@ -1730,7 +1730,7 @@ blockquote {
 	}
 }
 .row-alt {
-	background: var(--gradient-backgrounds-light-300);
+	background: var(--gradient-backgrounds-light-100);
 }
 #tagline {
 	color: var(--primary-gray-600);
