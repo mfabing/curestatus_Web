@@ -71,7 +71,7 @@ date_default_timezone_set('America/Lima');
 	<link type="font/woff2" href="/fonts/AvenirNext-MediumItalic-07.woff2">
 	<link type="font/woff2" href="/fonts/AvenirNext-DemiBold-03.woff2">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="/styles/custom.css?ver=<?php echo date('Y-m-d'); ?>">
+	<link rel="stylesheet" type="text/css" href="/styles/custom.css?ver=<?php echo date('Ymd'); ?>">
 </head>
 <body>
 	<main id="main" class="align-items-center justify-content-center text-center">
